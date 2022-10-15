@@ -1,0 +1,111 @@
+body {
+  padding-top: 50px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.em-text{
+  color: #0ea7b5 !important;
+}
+
+.intro-header {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background:url(https://unsplash.com/photos/FIKD9t5_5zQ/download) center center fixed;
+  background-size: cover;
+}
+.intro-message > h1 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  margin-top: 10%;
+  font-size: 70px;
+  text-shadow: 2px 1px #808080;
+}
+
+
+.btn:hover {
+ background: #C0C0C0;
+ transform:scale(1);
+ transition: 0.1s;
+ letter-spacing: 2px;
+}
+
+.navbar-header {
+  margin-left: 2%; 
+}
+.navbar-right {
+  margin-right: 2%;
+}
+
+.btn-freeCodeCamp {
+  background-color: #492C14;
+  color: #ffffff !important;
+}
+
+.about-page {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background:url(https://images.unsplash.com/photo-1433959352364-9314c5b6eb0b?fit=crop&fm=jpg&h=700&q=80&w=1050) center center fixed;
+  background-size: cover;
+}
+
+.about-message > h1{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  margin-top: 5%;
+  font-size: 60px;
+  text-shadow: 2px 1px #808080;
+}
+
+.about-message > p{
+  margin-top: 50px;
+  color: #dddddd;
+  text-shadow: 2px 1px #000;
+  font-size: 20px;
+}
+
+.portfolio-page {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+  background:url(https://images.unsplash.com/photo-1437422061949-f6efbde0a471?q=80&fm=jpg&s=e23055c9ba7686b8fe583fb8318a1f88) center center fixed;
+  background-size: cover;
+}
+
+.portfolio-message {
+  margin-top: 5%;
+  font-size: 60px;
+  text-shadow: 2px 1px #808080;
+}
+
+.contact-page {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  text-align: center;
+  background:url(https://images.unsplash.com/photo-1415045384817-2f9cf7f2ed79?q=80&fm=jpg&s=c186a1fbe2e559bdb841372f97715c91) center center fixed;
+  background-size: cover;
+}
+
+.contact-message > h1{
+   margin-top: 15%;
+  font-size: 60px;
+  text-shadow: 2px 1px #808080;
+  float: left;
+  padding-bottom: 50px;
+}
+
+ul.social-buttons > li {
+  display: block;
+  margin: 0 auto;
+  padding: 2em;
+}
