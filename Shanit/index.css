@@ -1,0 +1,106 @@
+/* Css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navigation Bar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+    height: 70px;
+    font-family: 'Baloo 2', cursive;
+}
+
+/* Navigation Bar: Logo */
+#logo{
+    margin: 0px 10px;
+    padding: 0px 15px;
+}
+#logo img{
+    height: 55px;
+    width: 55px;
+}
+
+/* Navigation Bar: listing */
+#navbar ul{
+    display: flex;
+    margin: 20px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul li{
+    /* color: azure; */
+    list-style: none;
+    font-size: 1.1rem;
+} 
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}   
+#navbar ul li a:hover{
+    color: rgb(107, 224, 245);
+    background-color: rgb(101, 38, 121);
+}   
+.item{
+    padding: 10px 2px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 30px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#home::before{
+    content: "";
+    background: url("DJhands.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#home h2{
+    font-size: 2.5rem;
+    font-family: 'Baloo 2', cursive;
+    padding: 20px;
+    margin: 80px;
+}
+
+#home p{
+    font-family: 'Indie Flower', cursive;
+}
+
+.btn{
+    border: 2px solid rgb(201, 76, 240);
+    width: 120px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    font-family: 'Baloo 2', cursive;
+    background-color: rgb(107, 224, 245);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(101, 38, 121);
+    color: rgb(107, 224, 245);
+}
+
+.center{
+    text-align: center;
+}
