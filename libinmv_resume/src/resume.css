@@ -1,0 +1,46 @@
+body {
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.dark-mode {
+    background-color: rgb(26, 26, 26);
+    color: rgb(195, 194, 194) !important;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.link_unset {
+    all: unset;
+    cursor: pointer;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+a:hover {
+    color: rgb(141, 68, 243) !important;
+}
+
+i {
+    width: 22px;
+    height: 36px;
+    margin-top: 2px;
+    justify-content: end;
+}
+
+
+.dark-icon:hover {
+    cursor: pointer;
+    color: rgb(127, 127, 127);
+}
+
+.light-icon:hover {
+    cursor: pointer;
+    color: rgb(255, 174, 35);
+}
