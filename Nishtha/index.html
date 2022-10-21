@@ -1,164 +1,178 @@
-<html>
-<head >
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
     <script src="https://kit.fontawesome.com/8a1079bf75.js" crossorigin="anonymous"></script>
-<title>LOGIN</title>
-<style>
-.login-page{
-    width: 360px;
-    padding: 10% ;
-    margin: auto;
-    border-radius: 50%;
-}
-.login{
-    position: relative;
-    padding: 45px;
-    z-index: 1 ;
-    max-width: 300px;
-    margin: 0 auto 60px;
-    background:white;
-    text-align: center;
-    width: 240px;
-    height: 390px;
-    display: block;
+    <title>LOGIN</title>
+    <style>
+    .login-page{
+        width: 390px;
+        /* padding: 10% ; */
+        margin: 5% auto;
+        border-radius: 50%;
+    }
+    .login{
+        position: relative;
+        padding: 30px;
+        z-index: 1 ;
+        max-width: 300px;
+        margin: 0 auto 60px;
+        background:white;
+        text-align: center;
+        width: 240px;
+        height: 390px;
+        display: block;
+        border-radius: 2rem;
+    }
+    .cursor1{
+         background-repeat: no-repeat; 
+         background-position: center;
+         background-size: cover;
+         background-image: url("C:\xampp\htdocs\bg.jpg");
+         cursor:url(click1.cur),auto;
+    }
+    .cursor2{
+        cursor:url(rat.cur),auto;
+        background-color: black;
+    }
+    .cursor3{
+        cursor:url(colour.cur),auto;
+        background-color:black;
+    }
     
-}
-.cursor1{
-     background-repeat: no-repeat; 
-     background-position: center;
-     background-size: cover;
-     background-image: url("C:\xampp\htdocs\bg.jpg");
-     cursor:url(click1.cur),auto;
-}
-.cursor2{
-    cursor:url(rat.cur),auto;
-    background-color: black;
-}
-.cursor3{
-    cursor:url(colour.cur),auto;
-    background-color:black;
-}
-
-.login h1{
-    text-align: center;
- color: black;
-}
-
-.btn{
-    background-color:red;
-    border:none;
-    color: white;
-    text-align:left;
-    font-size: 20px;
-    cursor:pointer;
-    padding:10px 10px 10px 15px;
-    opacity: 0.6;
-    border-radius: 7px;
-    width: 100px;
-}
-
-.btn:hover{
-   opacity: 1.0;
-}
-.nam{
-     padding: 5px ;
-     font-size: 14;
-}
-.pwd{
-     padding: 5px ;
-     font-size: 14;   
-}
-a:link,a:visited{
-    background-color: white;
-    color: black;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display:inline-block;
-    border: 1px solid blue;
-    box-sizing: border-box;
+    .login h1{
+        text-align: center;
+     color: black;
+    }
     
-  
-}
-a:hover, a:active {
-  background-color: blue;
-    color: white;
-}
-
-input[type="text"]:focus{
-    background-color: lightblue;
-    color: white;
-}
-input[type="password"]:focus{
-    background-color: lightblue;
-    color: white;
-}
-p{
-    box-shadow: 10px 10px ;
-    background-color: white;
-    font-size: 2rem;
-    padding: 10px;
-    line-height: 1.5;
-    border-radius: 10px;
-    margin: auto;
-    width: 55%;
-    overflow: auto;
+    .btn{
+        background-color:red;
+        border:none;
+        color: white;
+        text-align:left;
+        font-size: 20px;
+        cursor:pointer;
+        padding:10px 10px 10px 15px;
+        opacity: 0.6;
+        border-radius: 7px;
+        width: 100px;
+    }
     
-}
-
-
-.h1{
-   
-    background-color: white; 
-}
-li{
-    float: right;
-}
-ul{
-    list-style-type: none;
-}
-li a{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-}
-li a:hover:not(.active){
-    background-color:black;
-    color: white;
-}
-a.active{
-    background-color:black ;
-    color: white
-}
-h2{
-    font-size: 30px;
-}
-.icon{
-    color: red;
+    .btn:hover{
+       opacity: 1.0;
+    }
+    .nam{
+         padding: 5px ;
+         font-size: 14;
+    }
+    .pwd{
+         padding: 5px ;
+         font-size: 14;   
+    }
+    a:link,a:visited{
+        background-color: white;
+        color: black;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        display:inline-block;
+        border: 1px solid blue;
+        box-sizing: border-box;
+        
+      
+    }
+    a:hover, a:active {
+      background-color: blue;
+        color: white;
+    }
     
-}
-</style>
-  </head>
-    <body class="cursor2">
-     <div class="login-page">
-     
-      <form class="login" id="login" method="post">
-        <img src="e.jpeg" alt="icon" width="120px" height="120px" >
-        <h1 >Login</h1>
-           
-          <div class="userName">
-          <i class=" icon fas fa-user " style="font-size: 20px"></i>
-          <input type="text"   name="un" placeholder="USER NAME" id="txt"  class="nam" style="border: 1px solid black ;"  required ><br><br>
-              </div>
-          <div class="password">
-              <i class="icon fas fa-key "style="font-size: 20px"></i>
-          <input type="password" name="psw" placeholder="PASSWORD" id="pwd" style="border: 1px solid black;" required  maxlength="9" class="pwd" pattern="^(?:)[A-Z]{1}[a-z]+@[0-9]{3}" title="must contain one upper case letter, 3 numbers ,lowercase letter and @ sign"> <br><br><br>
+    input[type="text"]:focus{
+        background-color: lightblue;
+        color: white;
+    }
+    input[type="password"]:focus{
+        background-color: lightblue;
+        color: white;
+    }
+    p{
+        box-shadow: 10px 10px ;
+        background-color: white;
+        font-size: 2rem;
+        padding: 10px;
+        line-height: 1.5;
+        border-radius: 10px;
+        margin: auto;
+        width: 55%;
+        overflow: auto;
+        
+    }
+    
+    
+    .h1{
+       
+        background-color: white; 
+    }
+    li{
+        float: right;
+    }
+    ul{
+        list-style-type: none;
+    }
+    li a{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+    }
+    li a:hover:not(.active){
+        background-color:black;
+        color: white;
+    }
+    a.active{
+        background-color:black ;
+        color: white
+    }
+    h2{
+        font-size: 30px;
+    }
+    .icon{
+        color: red;
+        
+    }
+    input{
+        border-radius: 8px;
+    }
+    
+    </style>
+</head>
+
+<body class="cursor2">
+    <div class="login-page">
+    
+     <form class="login" id="login" method="post">
+       <img src="undraw_Male_avatar_re_hguk.png" alt="icon" width="150px" height="150px" >
+
+       <h1 >Login</h1>
           
-              </div>
-          <div class="submit">
-                                                                                
-          <button type="submit" class="btn" style="border: 2px solid black;" name="login">LOGIN</button>
-          </div><br>
-     </form>
-    </div>
-    </body>
+         <div class="userName">
+         <i class=" icon fas fa-user " style="font-size: 20px"></i>
+         <input type="text" autocomplete="on"   name="un" placeholder="USER NAME" id="txt"  class="nam" style="border: 1px solid black ;"  required ><br><br>
+             </div>
+         <div class="password">
+             <i class="icon fas fa-key "style="font-size: 20px"></i>
+         <input type="password" name="psw" placeholder="PASSWORD" id="pwd" style="border: 1px solid black;" required  maxlength="9" class="pwd" pattern="^(?:)[A-Z]{1}[a-z]+@[0-9]{3}" title="must contain one upper case letter, 3 numbers ,lowercase letter and @ sign"> <br><br><br>
+         
+             </div>
+         <div class="submit">
+                                                                               
+         <button type="submit" class="btn" style="border: 2px solid black;" name="login">LOGIN</button>
+         </div><br>
+    </form>
+   </div>
+   </body>
+
+</html>
+</body>
 </html>
