@@ -14,13 +14,13 @@ html {
 
 .intro {
     color: #1B4F72;
-    font-size: 35px;
+    font-size: 25px;
     letter-spacing: 1px;
     margin: 30px 0px 10px 0px;
 }
 
 .instruction-1, .instruction-2, .instruction-3, .description {
-    font-size: 18px;
+    font-size: 19px;
     color: #1B4F72;
     letter-spacing: 0.5px;
 }
