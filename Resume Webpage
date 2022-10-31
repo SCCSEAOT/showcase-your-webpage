@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijan Majee | CV</title>
+    <link rel="icon" href="logos.PNG">
+</head>
+<body bgcolor="grey">
+    <table style="width: 100%; background-color: #2C3333;">
+        <tr>
+            <td><img style="border-radius: 50%;" height="180px" src="https://userphotos2.teacheron.com/1218622-69311.jpg"/></td>
+            <td style="width:85%;">
+                <h1 style="color:yellow;">ABHIJAN MAJEE</h1>
+                <h3 style="color:white;"><em>Founder of AbhiTech Pvt. Ltd</em></h3>
+                <h3 style="color:white;"><em>Full Stack Java Developer</em></h3>
+            </td>
+        </tr>
+    </table>
+    <!--<hr size=0px" noshade=""> -->
+    <table border="0px" style="width: 100%;">
+        <tr>
+            <td style="width:30%; background-color: #EB4747;" >
+                <center>
+                <h3>Contact Details</h3>
+                <table>
+                    <tr>
+                        <td><strong>Address:</strong></td>
+                        <td>Adisaptagram, Hoogly, West Bengal</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Mobile No.:</strong></td>
+                        <td>(+91) 9631826590</td>
+                    </tr>
+                    <tr>
+                        <td><strong>email:</strong></td>
+                        <td>abhicoding@gmail.com</td>
+                    </tr>
+                </table>
+                </center>
+                <br>
+                <br>
+                <center>
+                <h3>Education Details</h3>
+                <p><strong>B.Tech in Computer Science & Engineering</strong><br>Academy of Technology<br>Adisatagram, Hoogly, West Bengal</p>
+                <p><strong>Intermediate(XII-CBSE)</strong><br>Chinmaya Vidyalaya<br>Bokaro Steel City, Jharkhand</p>
+                <p><strong>Matriculate(X-ICSE)</strong><br>De Nobili School<br>Chandrapura, Bokaro, Jharkhand</p>
+                </center>
+                <br>
+                <center>
+                    <h3>Position of Responsibility</h3>
+                    <p>Member of <strong>INGENIUM</strong><br>Member of <strong>CSE Student Chapter</strong><br>Java Tutor at <strong>TeacherOn</strong><br>Freelancer at <strong>UpWork</strong></p>
+                </center>
+                <br>
+            </td>
+            <td style="width: 70%; background-color: #59CE8F;">
+                <center>
+                <table border="0px" width="80%">
+                    <tr>
+                        <td><h3>OBJECTIVE</h3></td>
+                        <td>
+                            <ul>
+                            <li>Seeking an IT Service Development Role in a challenging workplace<br>
+                                that welcomes innovative ideas and offers growth opportunities.</li>
+                            <li>I'm Full Stack Java Developer With 4+ Years of Experience in designing<br>
+                                and developing Frontend and Backend Applications.</li>
+                            </ul><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h3>EXPERIENCES</h3></td>
+                        <td>
+                            <ol>
+                                <li>Website Development</li>
+                                <p>Built a few websites using HTML, CSS and Javascript.<br>
+                                   Built clone websites of Amazon and Bewakoof.</p>
+                                <li>Database Management</li>
+                                <p>As a part of project work, made a Database Management<br>
+                                    System on Railway Ticket Reservation using Python and MySQL.</p>
+                                <li>Soft Skill Development</li>
+                                <p>Enhanced my communication and writing skills and learned<br> 
+                                    Business Etiquette through Career Edge Young Professional<br> 
+                                    Course on TCSiON Digital.</p>
+                            </ol><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h3>SKILLS</h3></td>
+                        <td>
+                            <ul>
+                                <li>Problem Solving</li>
+                                <li>Programming Languages</li>
+                                <li>Web Design</li>
+                                <li>UX/UI Design</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                </center>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
